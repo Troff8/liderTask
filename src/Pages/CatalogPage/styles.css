@@ -1,0 +1,28 @@
+.catalog-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.title {
+    font-size: 30px;
+}
+.menu-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    row-gap: 40px;
+    margin-top: 50px;
+}
+@media (max-width: 930px) {
+    .menu-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 690px) {
+    .menu-products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

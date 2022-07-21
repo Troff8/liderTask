@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 37px;
+    width: 100%;
+    margin-top: 37px;
+    flex: 1;
+}
+.image-logo {
+    width: 215px;
+    height: 37px;
+}
+.image-basket {
+    height: 23px;
+    width: 28px;
+}
+.basket-items {
+    display: flex;
+    align-items: center;
+}
+.basket-items > *:not(:last-child) {
+    margin: 0px 10px 0px 0px;
+}
+.text-small {
+    font-size: 16px;
+    cursor: pointer;
+}
+.basket-counter {
+    display: flex;
+    justify-content: center;
+    background: #00a82d;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+}
+.text-small:hover{
+    color: #00a82d;
+}
+.text-small:hover .image-basket{
+    background-image: url('../../../images/FillActive.png');
+}
+
+@media (max-width:930px){
+   
+}
