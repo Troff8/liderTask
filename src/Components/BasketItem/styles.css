@@ -1,0 +1,11 @@
+.basket-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #A8AFBB;
+}
+.basket-product-image{
+    width: 125px;
+    height: 150px;
+}

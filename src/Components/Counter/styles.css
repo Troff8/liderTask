@@ -1,0 +1,25 @@
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #A8AFBB;
+    height: 100%;
+    width: 100%;
+}
+.action-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #A8AFBB;
+    height: 100%;
+    cursor: pointer;
+    width: 40px;
+    font-size: 25px;
+}

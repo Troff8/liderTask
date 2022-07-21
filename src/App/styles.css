@@ -29,7 +29,9 @@ ul li {
 img {
     vertical-align: top;
 }
-
+link{
+    text-decoration: none;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
@@ -41,7 +43,7 @@ body {
 .app {
     min-height: 100%;
     overflow: hidden;
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
 @media (max-width: 930px) {
@@ -49,6 +51,8 @@ body {
         max-width: 720px;
     }
 }
-@media (max-width: 890px) {
-    
+@media (max-width: 690px) {
+    .app{
+        margin: 0;
+    }
 }

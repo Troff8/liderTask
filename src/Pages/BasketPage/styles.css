@@ -1,0 +1,15 @@
+.basket-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+.list-pproducts-basket{
+    display: flex;
+    flex-direction: column;
+}

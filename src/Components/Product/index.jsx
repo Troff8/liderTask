@@ -6,7 +6,7 @@ const Product = ({ imageSrc, title, price, color }) => {
     return (
         <div className={styles.product}>
             <img className={styles.productImage} src={imageSrc} />
-            <p className={styles.textSmall}>{title}</p>
+            <p className={styles.textDiscription}>{title}</p>
             <p>{color}</p>
             <p className={styles.price}>{price}₽</p>
             <div className={styles.blockButton}>
